@@ -1,0 +1,12 @@
+image: 501stalpha1/debian:jessie
+manifests:
+  -
+    image: library/debian:jessie
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: 32bit/debian
+    platform:
+      architecture: 386
+      os: linux
