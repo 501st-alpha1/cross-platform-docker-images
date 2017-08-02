@@ -1,0 +1,12 @@
+image: 501stalpha1/ubuntu:trusty
+manifests:
+  -
+    image: library/ubuntu:trusty
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: f69m/ubuntu32:trusty
+    platform:
+      architecture: 386
+      os: linux
